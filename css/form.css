@@ -1,0 +1,24 @@
+
+.label {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+    outline: none;
+}
+
+.form-column {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#form-add-card {
+    margin: 0 auto;
+    max-width: 500px;
+}

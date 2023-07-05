@@ -1,0 +1,16 @@
+* {
+    font-family: Unbutu, Helvetica, sans-serif, "Zapf Dingbats";
+    font-size: 1rem;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+ul li {
+    list-style: none;
+}
+
+.app-actions {
+    margin: 15px 10px;
+}

@@ -1,0 +1,22 @@
+.show {
+    display: block !important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: darkslategray;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: auto;
+}

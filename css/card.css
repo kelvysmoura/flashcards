@@ -1,0 +1,44 @@
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px 4px 4px 10px;
+    padding: 1rem;
+    min-width: 175px;
+    max-width: 175px;
+    min-height: 75px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    color: darkslategray;
+    background-color: #fff;
+}
+
+#card-overlap .definition {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    width: auto;
+    border-radius: 5px;
+    color: #fff;
+    background-color: darkslategray;
+}
+
+#card-overlap .actions {
+    margin: 20px 0;
+}
+
+#card-overlap .actions span {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}

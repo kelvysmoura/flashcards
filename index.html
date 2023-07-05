@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flashcards</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/sanitize.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/ultils.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
+    <link href="css/overlap.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-actions">
+        <button class="btn" id="new-card">Novo cartão</button>
+        <button class="btn" id="clean-board">Apagar cartões</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <ul id="cards">
+        </ul>
+    </div>
+
+    <div class="overlap-content" id="form-add-card">
+        <form action="" method="get">
+            <div class="form-column">
+                <label class="label">Texto</label>
+                <input type="text" name="text" class="input" require>
+            </div>
+            <div class="form-column">
+                <label class="label">Definição</label>
+                <input type="text" name="definition" class="input" require>
+            </div>
+            <div class="form-column">
+                <button type=card-overlap"submit" class="btn">Adicionar cartão</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="overlap-content" id="card-overlap">
+        <div class="content">
+            <h2 class="text">
+            </h2>
+            <div class="definition">
+                <p class="hidden"></p>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="prev btn">Anterior</button>
+            <button class="next btn">Pŕoximo</button>
+        </div>
+    </div>
+
+    <div id="overlap">
+        <span class="close">&#x2716;</span>
+    </div>
+
+<script src="js/CardHtml.js"></script>
+<script src="js/CardOverlap.js"></script>
+<script src="js/FormAddNewCard.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

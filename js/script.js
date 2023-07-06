@@ -41,7 +41,7 @@ document.addEventListener('keydown', event => {
     }
 })
 
-const RAW_URL = 'https://raw.githubusercontent.com/kelvysmoura/flashcards';
+const RAW_URL = 'https://raw.githubusercontent.com/kelvysmoura/flashcards/master/themes';
 
 const loadVerbs = document.getElementById('load-verbs');
 const loadJs = document.getElementById('load-js');

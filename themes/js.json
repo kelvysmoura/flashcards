@@ -1,0 +1,10 @@
+[
+    {
+        "text": "Como pegar uma tag pelo id?",
+        "definition": "document.getElementById(elementId)"
+    },
+    {
+        "text": "Como pegar uma tag pelo nome da classe",
+        "definition": "document.getElementsByClassName(className)"
+    }
+]

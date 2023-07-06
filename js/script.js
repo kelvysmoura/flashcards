@@ -40,3 +40,24 @@ document.addEventListener('keydown', event => {
         closeOverlap.click()
     }
 })
+
+const RAW_URL = 'https://raw.githubusercontent.com/kelvysmoura/flashcards';
+
+const loadVerbs = document.getElementById('load-verbs');
+const loadJs = document.getElementById('load-js');
+
+loadVerbs.addEventListener('click', event => {
+    fetch(RAW_URL + '/verbs.json')
+        .then(response => response.json())
+        .then(themeItems => {
+            CardHtmlObject.create(themeItems)
+        })
+})
+
+loadJs.addEventListener('click', event => {
+    fetch(RAW_URL + '/js.json')
+        .then(response => response.json())
+        .then(themeItems => {
+            CardHtmlObject.create(themeItems)
+        })
+})
